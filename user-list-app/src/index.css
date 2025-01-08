@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #007bff;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Container for the App */
+
+.container {
+  max-width: 75%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+/* Navbar Section */
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.navbar input[type="text"] {
+  padding: 7px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  flex: 1;
+  width: 300px;
+}
+
+.navbar select,
+.navbar label {
+  padding: 7px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.navbar label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.navbar div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* User Table */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+th {
+  background: #007bff;
+  color: white;
+}
